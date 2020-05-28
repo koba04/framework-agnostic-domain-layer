@@ -1,0 +1,33 @@
+{
+  "name": "framework-agnostic-domain-layer",
+  "version": "1.0.0",
+  "description": "A implementation for a framework agnostic damain layer",
+  "main": "src/index.ts",
+  "author": "Toru Kobayashi <koba0004@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "test": "eslint 'src/**/*.ts' 'src/**/*.tsx'"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/styled-components": "^5.1.0",
+    "eslint": "^7.1.0",
+    "eslint-config-smarthr": "^4.0.0",
+    "prettier": "^2.0.5",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
